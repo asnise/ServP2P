@@ -4,7 +4,7 @@
 ------------ | -------------
 DMG(พลังโจมตีที่แสดงผล) | ATK + พลังโจมตีของอาวุธ + ออฟที่ลงท้ายหรือขึ้นต้นด้วย DMG *ไม่ร่วมกับออฟที่มีคำว่า resistance*
 HP | HP หรือ HP + ออฟที่เป็น +HP%
-DEF & Defense(พลังป้องกัน ค่าที่จะใช้ลบดาเมจแบบตรงๆ)  = DEF x DEF Bonus + (DMG reduction x DMG Resistance)
+DEF & Defense(พลังป้องกัน ค่าที่จะใช้ลบดาเมจแบบตรงๆ) | DEF x DEF Bonus + (DMG reduction x DMG Resistance)
 DMG Resistance | ค่าที่เอาไปลบดาเมจศัตรูตรงๆ เช่นมันตี 500 เรามี 250 = มันตีเข้า 250 - 499 มันน่าจะคิดประมาณนี้
 DMG Reduction | DMG Resistance แต่เป็น % *ไม่รู้มันคิดจากอะไร*
 Armor-pier(ค่าที่จะทำดเมจโดยจะไม่คิดถึงค่า Defense ศัตรู) | Armor-pier x Renetration
