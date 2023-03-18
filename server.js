@@ -7,6 +7,7 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 app.post('/messages', (req, res) => {
+  console.log(`Message received from IP address: ${req.ip}`);
   console.log(req.body);
   res.send('Message received');
 });
