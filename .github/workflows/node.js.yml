@@ -9,4 +9,5 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: Run server
+      run: npm install express
       run: node server.js
